@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8821be5e6f480af9b471c0cbf59bedb3",
-    "content-hash": "ddb07e80cd199270f458cf73c9d01d99",
+    "hash": "687c325f1b86bebeb7640c9f21bb19de",
+    "content-hash": "ceb196814de99315c5c65d9f5e6c384c",
     "packages": [
         {
             "name": "admad/cakephp-sequence",
@@ -433,12 +433,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/croogo/croogo.git",
-                "reference": "beb3093e99b604514dd5fffb4836e1e1a81e19d7"
+                "reference": "abf3f8c6fe804695c6389d8ccc36b239083e1ea1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/croogo/croogo/zipball/beb3093e99b604514dd5fffb4836e1e1a81e19d7",
-                "reference": "beb3093e99b604514dd5fffb4836e1e1a81e19d7",
+                "url": "https://api.github.com/repos/croogo/croogo/zipball/abf3f8c6fe804695c6389d8ccc36b239083e1ea1",
+                "reference": "abf3f8c6fe804695c6389d8ccc36b239083e1ea1",
                 "shasum": ""
             },
             "require": {
@@ -535,7 +535,7 @@
             ],
             "description": "Croogo - Open Source CMS built for everyone",
             "homepage": "http://github.com/croogo/croogo",
-            "time": "2016-08-07 15:01:25"
+            "time": "2016-08-07 22:35:53"
         },
         {
             "name": "cvo-technologies/cakephp-github",
