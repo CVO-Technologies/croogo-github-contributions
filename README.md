@@ -6,7 +6,6 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/cvo-technologies/croogo-github-contributions.svg?style=flat-square)](https://packagist.org/packages/cvo-technologies/croogo-github-contributions)
 [![Latest Stable Version](https://img.shields.io/packagist/v/cvo-technologies/croogo-github-contributions.svg?style=flat-square&label=stable)](https://packagist.org/packages/cvo-technologies/croogo-github-contributions)
 
-
 ## Installation
 
 You can install this plugin into your Croogo application using [composer](http://getcomposer.org).
