@@ -2,6 +2,19 @@
     "name": "cvo-technologies/croogo-github-contributions",
     "description": "This plugin provides a block that shows a user's latest GitHub contributions",
     "type": "croogo-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marlin Cremers",
+            "email": "m.cremers@cvo-technologies.com",
+            "homepage": "https://cvo-technologies.com/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/CVO-Technologies/croogo-github-contributions/issues",
+        "irc": "irc://irc.freenode.org/cvo-technologies",
+        "source": "https://github.com/CVO-Technologies/croogo-github-contributions"
+    },
     "require": {
         "php": ">=5.4.16",
         "croogo/croogo": "~3.0",
