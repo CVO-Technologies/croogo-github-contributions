@@ -1,0 +1,35 @@
+{
+    "name": "cvo-technologies/croogo-github-contributions",
+    "description": "This plugin provides a block that shows a user's latest GitHub contributions",
+    "type": "croogo-plugin",
+    "require": {
+        "php": ">=5.4.16",
+        "croogo/croogo": "~3.0",
+        "cvo-technologies/cakephp-github": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "cakephp/cakephp-codesniffer": "*",
+        "cvo-technologies/stream-emulation": "~1"
+    },
+    "autoload": {
+        "psr-4": {
+            "CvoTechnologies\\GitHubContributions\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CvoTechnologies\\GitHubContributions\\Test\\": "tests",
+            "Croogo\\Core\\Test\\": "./vendor/croogo/croogo/Core/tests",
+            "App\\": "./vendor/croogo/croogo/tests/test_app/src"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump",
+            "Croogo\\Install\\ComposerInstaller::postAutoloadDump"
+        ]
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
